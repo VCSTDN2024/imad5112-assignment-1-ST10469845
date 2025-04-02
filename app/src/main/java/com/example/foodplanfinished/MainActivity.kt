@@ -17,38 +17,6 @@ class MainActivity : AppCompatActivity() {
 
     //ST10469845   Kayrey Maistry
 
-    /*References
-
-     background image: https://za.pinterest.com/pin/911486412112811359/
-     Burger image: https://za.pinterest.com/pin/28217935160938262/
-     Brownie Image: https://za.pinterest.com/pin/18366310975612652/
-     Cakes Image: https://za.pinterest.com/pin/639018634665406095/
-     Chicken Image: https://za.pinterest.com/pin/886998089113319806/
-     Chips Image: https://za.pinterest.com/pin/802977808608739135/
-     Chocolate Image: https://za.pinterest.com/pin/127437864450955470/
-     desertone Image: https://za.pinterest.com/pin/464081936622694791/
-     deserttwo Image: https://za.pinterest.com/pin/7388786881674810/
-     desertthree Image: https://za.pinterest.com/pin/28358672650164504/
-     desertFour Image: https://za.pinterest.com/pin/284500901454092564/
-     fruit Image: https://za.pinterest.com/pin/56717276552179134/
-     stir fry Image: https://za.pinterest.com/pin/112871534412211371/
-     milktart Image: https://za.pinterest.com/pin/56083957852516493/
-     Mousse Image: https://za.pinterest.com/pin/755478906279326981/
-     Muffins Image: https://za.pinterest.com/pin/1055599907854554/
-     Pasta Image: https://za.pinterest.com/pin/307300374574041990/
-     Pie Image: https://za.pinterest.com/pin/401735229279065602/
-     Pizza Image: https://za.pinterest.com/pin/136656169940668720/
-     Popcorn Image: https://za.pinterest.com/pin/13370130138395822/
-     Salmon Image: https://za.pinterest.com/pin/25684660371229100/
-     Smoothie Image: https://za.pinterest.com/pin/328551735336539182/
-     Steak Image: https://za.pinterest.com/pin/12173861488560738/
-     Toast Image: https://za.pinterest.com/pin/408701734952076783/
-     Waffles Image: https://za.pinterest.com/pin/83879611805614120/
-     food Logo Image: https://za.pinterest.com/pin/4714774598401680/
-     */
-
-
-
     private var TimeET : EditText? = null
     private var DisplayTV : TextView? = null
 
@@ -220,7 +188,35 @@ class MainActivity : AppCompatActivity() {
 
     //Create private function that will call an output when specific instruction is entered
 
+    /*
+    References
 
+    Muffins Image: 		Sweet & Savory, Chocolate Orange Muffins [image online]. Available at: <https://za.pinterest.com/pin/1055599907854554/>[Accessed 26th March 2025].
+    Mousse Image: 		Platos y Placeres, [image online]. Available at: <https://za.pinterest.com/pin/755478906279326981/>[Accessed 26th March 2025].
+    Milktart Image: 	Life in the South, [image online]. Available at: <https://za.pinterest.com/pin/56083957852516493/>[Accessed 26th March 2025].
+    Background Image: 	rawpixel, Download premium psd / image of Gold frame on fresh homemade food. [image online]. Available at: <https://za.pinterest.com/pin/911486412112811359/>[Accessed 1st April 2025]
+    Burger Image:		Grandma's Kitchen | Easy & Delicious Family Recipes, Crack Burgers [image online]. Available at: <https://za.pinterest.com/pin/28217935160938262/>[Accessed 26th March 2025]
+    Brownie Image:		Good For Recipes, Chocolate Covered Strawberry Brownies [image online]. Available at: <https://za.pinterest.com/pin/18366310975612652/>[Accessed 26th March 2025]
+    Cakes Image:		tietheknot.at, Hochzeitstorte war gestern: 10 tolle Alternativen zur Hochzeitstorte [image online]. Available at: <https://za.pinterest.com/pin/639018634665406095/>[Accessed 26th March 2025]
+    Chicken Image:		EatRecipo with Jessica, Garlic Herb Roast Chicken [image online]. Available at: <https://za.pinterest.com/pin/886998089113319806/>[Accessed 26th March 2025]
+    Chips Image:		Eat This, Not That!, Healthy Smoked Paprika Potato Chips [image online]. Available at: <https://za.pinterest.com/pin/802977808608739135/>[Accessed 26th March 2025]
+    Chocolate Image:	Chandrani Ghosh, Chocolate [image online]. Available at: <https://za.pinterest.com/pin/127437864450955470/>[Accessed 26th March 2025]
+    Desert One Image:	Sareni, [image online]. Available at: <https://za.pinterest.com/pin/464081936622694791/>[Accessed 26th March 2025]
+    Desert Two Image:	Crissy, [image online]. Available at: <https://za.pinterest.com/pin/7388786881674810/>[Accessed 26th March 2025]
+    Desert Three Image:	RapidLeaks, How Did The Sand Get Into The Sahara Desert? [online image]. Available at: <https://za.pinterest.com/pin/28358672650164504/>[Accessed at 26th March 2025]
+    Desert Four Image:	Freepik, Premium Photo | Dunes in the Sahara desert in the heart of Africa [image online]. Available at: <https://za.pinterest.com/pin/284500901454092564/>[Accessed 26th March 2025]
+    Fruit Image:		Platos y Placeres, [image online]. Available at: <https://za.pinterest.com/pin/56717276552179134/>[Accessed 26th March 2025]
+    Stir Fry Image:		pailina, [image online]. Available at: <https://za.pinterest.com/pin/112871534412211371/>[Accessed 26th March 2025]
+    Waffle Image:		Recipes Vibrant | Quick & Easy Homemade Recipes, Homemade Waffles Recipe [image online]. Available at: <https://za.pinterest.com/pin/83879611805614120/>[Accessed 26th March 2025]
+    Toast Image:		Jessica Gavin, Avocado Toast(6 Ways!) [image online]. Available at: <https://za.pinterest.com/pin/408701734952076783/>[Accessed 26th March 2025]
+    Steak Image:		Recipes Time | Food Recipes & Cooking, Grilled Steak with Chimichurri Sauce and Roasted Potatoes [image online]. Available at: <https://za.pinterest.com/pin/12173861488560738/>[Accessed 26th March 2025]
+    Smoothie Image:		Quick& Easy Recipe, [image online]. Available at: <https://za.pinterest.com/pin/328551735336539182/>[Accessed 26th March 2025]
+    Salmon Image:		goorecipes, [image online]. Available at: <https://za.pinterest.com/pin/25684660371229100/>[Accessed 26th March 2025]
+    Popcorn Image: 		Pequerecetas - Recetas para ninos, Como hacer palomitas de maiz caseras [online image]. Available at: <https://za.pinterest.com/pin/13370130138395822/>[Accessed 26th March 2025]
+    Pizza Image:		Nishu Shanzida, [image online]. Available at: <https://za.pinterest.com/pin/136656169940668720/>[Accessed 26th March 2025]
+    Pie Image:		I've Been Cooking, Cornish Pocket from United Kingdom [image online]. Available at: <https://za.pinterest.com/pin/401735229279065602/>[Accessed 26th March 2025]
+    Pasta Image: 		RecipeTin Eats, Chicken Pasta recipe of your dreams [image online]. Available at: <https://za.pinterest.com/pin/307300374574041990/>[Accessed 26th March 2025]
+    */
 
 
 
